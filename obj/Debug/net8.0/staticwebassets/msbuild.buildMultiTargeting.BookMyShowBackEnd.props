@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookMyShowBackEnd.props" />
+</Project>

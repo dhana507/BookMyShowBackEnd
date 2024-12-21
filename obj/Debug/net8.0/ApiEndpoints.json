@@ -1,0 +1,334 @@
+[
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "Addnewmovie",
+    "RelativePath": "addnewmovie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagelink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagelink2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trailervideolink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "heroname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "heroinename",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "district",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "herolink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "heroinelink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "directorname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "directorlink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "producername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "producerlink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "musicname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "musiclink",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "AddTheater",
+    "RelativePath": "addtheater",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theatername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "time",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "seats",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "allotseats",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "district",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movietitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "Alllogin",
+    "RelativePath": "alllogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "BookingTicket",
+    "RelativePath": "bookticket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingRequest",
+        "Type": "Example.Controllers.ToDoController\u002BBookingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "delete_task",
+    "RelativePath": "delete_task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "Deletemovie",
+    "RelativePath": "deletemovie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movietitle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "deletetheatre",
+    "RelativePath": "deletetheatre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theatername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movietitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "district",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "GetBookingTickets",
+    "RelativePath": "getbookingtickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTheater",
+        "Type": "Example.Models.TheaterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "GetMovieDetails",
+    "RelativePath": "getmoviedetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Example.Controllers.ToDoController\u002BMovieDistrictRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "Gettheatredetails",
+    "RelativePath": "gettheatredetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Example.Controllers.ToDoController\u002BTheatermovietitleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.ToDoController",
+    "Method": "register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Example.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Example.WeatherForecast, BookMyShowBackEnd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
